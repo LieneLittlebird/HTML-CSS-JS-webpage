@@ -11,8 +11,19 @@
 -   Add a heading for 3 articles
 -   Article cards
     -   Add cards
-    -   Add links (without destination)
+    -   Add links (with destination)
         -   Destination - articles about Sweden
     -   Add pictures
         -   Resize Sweden pictures
+        -   Make the section responsive to browser width changes!
 -   Add a footer
+
+## Articles
+
+-   Add article cards
+    -   100% width
+    -   One under another
+
+## Article 1,2,3
+
+    - Add header and footer
