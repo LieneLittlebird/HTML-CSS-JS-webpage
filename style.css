@@ -2,10 +2,6 @@
     margin-left: 15px;
 }
 
-.container {
-    margin-right: 0px;
-}
-
 #carouselExampleIndicators {
     margin: 25px 40px 10px 40px;
     border-width: 10px;
@@ -14,4 +10,24 @@
 
 #h6 {
     margin-left: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#article1 {
+    margin-left: 10px;
+    /* border: 1px solid black; */
+}
+
+#article3 {
+    margin-right: 10px;
+}
+
+.my-footer {
+    float: left;
+    margin: 10px 20px 10px;
+    height: 60px;
 }
