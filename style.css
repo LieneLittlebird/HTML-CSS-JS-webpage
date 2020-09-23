@@ -5,3 +5,13 @@
 .container {
     margin-right: 0px;
 }
+
+#carouselExampleIndicators {
+    margin: 25px 40px 10px 40px;
+    border-width: 10px;
+    border-color: black;
+}
+
+#h6 {
+    margin-left: 40px;
+}
