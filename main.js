@@ -1,1 +1,1 @@
-console.log($);
+$("#burger-button").click(() => {});
