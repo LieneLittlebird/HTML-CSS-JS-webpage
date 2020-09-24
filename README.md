@@ -17,6 +17,7 @@
         -   Resize Sweden pictures
         -   Make the section responsive to browser width changes!
 -   Add a footer
+-   Change col md/sm/lg settings for the article cards
 
 ## Articles
 
