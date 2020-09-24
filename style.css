@@ -27,9 +27,13 @@ main {
     height: 60px;
 }
 
-a {
-    text-decoration: underline;
-    color: rgb(25, 139, 120);
+a.articles-home {
+    color: black;
+}
+
+a.articles-home:hover {
+    color: rgb(24, 119, 90);
+    text-decoration: none;
 }
 
 img {
