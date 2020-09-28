@@ -24,6 +24,7 @@
 -   Add article cards
     -   100% width
     -   One under another
+    -   Change .col width for different screen sizes
 
 ## Article 1,2,3
 

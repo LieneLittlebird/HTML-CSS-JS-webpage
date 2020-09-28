@@ -39,13 +39,10 @@ a.articles-home:hover {
 }
 
 img {
-    padding: 15px;
+    padding: 5px;
+    margin-top: 17px;
 }
 
-.main-article-img {
-    padding: 10px;
-}
-
-.article-row-p {
-    padding: 20px;
+main.article-page {
+    margin-bottom: 200px;
 }
