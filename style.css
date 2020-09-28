@@ -6,12 +6,10 @@ main {
     padding: 25px 40px 10px 40px;
 }
 
-main.article-page {
-    margin-bottom: 200px;
-}
-
 main.all-articles {
-    margin-top: 20px;
+    padding: 25px 40px 10px 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #carouselExampleIndicators {
     border-width: 10px;
@@ -62,10 +60,31 @@ img.card-img {
 }
 
 img.article-page-img {
-    padding: 5px;
+    /* padding: 0px; */
     margin-top: 17px;
+}
+
+img.article-img-main {
+    margin-top: 5px;
+    border: 0.5px solid grey;
+    width: 100%;
+}
+
+img.article-img-grid {
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .carousel-item img {
     padding: 0;
+}
+
+#article1-to-3-title {
+    padding-bottom: 15px;
+    margin-left: -15px; /* Fix this! */
+}
+
+#article1-text {
+    padding: 0px;
 }
