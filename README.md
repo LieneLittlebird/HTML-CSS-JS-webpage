@@ -31,3 +31,4 @@
     - Add header and footer
     - Add picture grid and text
     - Add fancy box
+    - If I have time - change content for article2,3 pages
