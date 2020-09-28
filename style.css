@@ -12,13 +12,14 @@ main {
 }
 
 #h6 {
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
-.row {
+#articles-home.row {
     display: flex;
     justify-content: space-between;
     margin: 0;
+    padding: 13px;
 }
 
 .my-footer {
@@ -28,14 +29,23 @@ main {
 }
 
 a.articles-home {
-    color: black;
-}
-
-a.articles-home:hover {
     color: rgb(24, 119, 90);
     text-decoration: none;
 }
 
+a.articles-home:hover {
+    color: rgb(72, 134, 206);
+    text-decoration: underline;
+}
+
 img {
     padding: 15px;
+}
+
+.main-article-img {
+    padding: 10px;
+}
+
+.article-row-p {
+    padding: 20px;
 }
