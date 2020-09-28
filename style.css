@@ -82,7 +82,7 @@ img.article-img-grid {
 
 #article1-to-3-title {
     padding-bottom: 15px;
-    margin-left: -15px; /* Fix this! */
+    margin-left: 0px;
 }
 
 #article1-text {
