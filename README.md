@@ -29,3 +29,5 @@
 ## Article 1,2,3
 
     - Add header and footer
+    - Add picture grid and text
+    - Add fancy box
