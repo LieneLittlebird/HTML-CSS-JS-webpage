@@ -11,8 +11,7 @@ main.article-page {
 }
 
 main.all-articles {
-    /* padding: 25px 40px 10px 40px; */
-    margin-top: 40px;
+    margin-top: 20px;
 }
 #carouselExampleIndicators {
     border-width: 10px;
@@ -35,6 +34,7 @@ main.all-articles {
     position: fixed;
     bottom: 0px;
     background: #eee;
+    border: 1px solid grey;
     display: flex;
     justify-content: flex-start;
     align-items: center;
