@@ -48,63 +48,78 @@
         <main>
             <section>
                 <h5>Register</h5>
-                <form>
+                <form id="reg-form">
                     <div class="my-fields">
-                        <div id="username">
+                        <div>
                             <input
                                 type="text"
                                 name="Username*"
                                 placeholder="Username*"
                                 class="form-control"
+                                id="username"
                             />
-                            <p class="error-message">Enter your username</p>
+                            <p class="error-msg" id="username-error">
+                                Enter your username
+                            </p>
                         </div>
                         <br />
-                        <div id="password">
+                        <div>
                             <input
                                 type="password"
                                 name="Password*"
                                 placeholder="Password*"
                                 class="form-control"
+                                id="password"
                             />
-                            <p class="error-message">Enter your password</p>
+                            <p class="error-msg" id="password-error">
+                                Enter your password
+                            </p>
+                            <p class="error-msg" id="password-length">
+                                Password must be at least 8 symbols long
+                            </p>
                         </div>
                         <br />
-                        <div id="retype-password">
+                        <div>
                             <input
                                 type="password"
                                 name="Retype password*"
                                 placeholder="Retype-password*"
                                 class="form-control"
+                                id="re-password"
                             />
-                            <p class="error-message">Retype your password</p>
+                            <p class="error-msg" id="repassword-error-match">
+                                Passwords must match
+                            </p>
                         </div>
                         <br />
-                        <div id="first-name">
+                        <div>
                             <input
                                 type="text"
                                 name="First name*"
                                 placeholder="First name*"
                                 class="form-control"
+                                id="first-name"
                             />
-                            <p class="error-message">Enter your First name</p>
+                            <p class="error-msg" id="first-name-error">
+                                Enter your First name
+                            </p>
                         </div>
                         <br />
-                        <div id="last-name">
+                        <div>
                             <input
                                 type="text"
                                 name="Last name*"
                                 placeholder="Last name*"
                                 class="form-control"
+                                id="last-name"
                             />
-                            <p class="error-message">Enter your Last name</p>
+                            <p class="error-msg" id="last-name-error">
+                                Enter your Last name
+                            </p>
                         </div>
                         <br />
-                        <div id="select">
-                            <select
-                                id="exampleFormControlSelect1"
-                                class="form-control"
-                            >
+                        <div>
+                            <select id="country" class="form-control">
                                 <option selected="selected" disabled>
                                     Country*
                                 </option>
@@ -115,16 +130,23 @@
                                 <option>Sweden</option>
                                 <option>Sweden</option>
                             </select>
-                            <p class="error-message">Choose a country</p>
+                            <p class="error-msg" id="country-error">
+                                Choose a country
+                            </p>
                         </div>
 
                         <br />
                         <div>
-                            <input type="checkbox" name="check-it" />
+                            <input
+                                type="checkbox"
+                                name="check-it"
+                                id="check-it"
+                            />
                             <label for="agree-to"
-                                >Agree to Terms and Conditions</label
-                            >
-                            <p class="error-message">
+                                >Agree to <a href="">Terms</a> and
+                                <a href="">Conditions</a>
+                            </label>
+                            <p class="error-msg" id="checkbox-error">
                                 You must agree to the Terms and Conditions
                             </p>
                         </div>
@@ -133,6 +155,7 @@
                             type="submit"
                             class="btn btn-dark"
                             style="width: 110px"
+                            id="register"
                         >
                             Register
                         </button>

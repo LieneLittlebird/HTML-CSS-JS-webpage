@@ -91,13 +91,15 @@ img.article-img-grid {
     margin-top: 20px;
 }
 
-#select {
-}
-
 .form-control {
     width: 20%;
 }
 
-p.error-message {
+p.error-msg {
     color: rgb(240, 25, 25);
+    display: none;
 }
+/* Added CSS for the REgistry form */
+/* #register {
+    box-shadow: black;
+} */
