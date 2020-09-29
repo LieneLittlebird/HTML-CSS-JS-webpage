@@ -35,7 +35,6 @@ $("#reg-form").submit(() => {
         isValid = false;
     }
 
-    // let selectedOption = $("#country option:selected");
     if ($("#country").val() === null) {
         $("#country-error").show();
         isValid = false;
@@ -47,4 +46,37 @@ $("#reg-form").submit(() => {
     }
 
     return isValid;
+});
+
+$("#chat-form").submit(() => {
+    const date = new Date();
+
+    let currentDate =
+        date.getDate() +
+        "." +
+        date.getMonth() +
+        "." +
+        date.getFullYear() +
+        " " +
+        date.getHours() +
+        ":" +
+        date.getMinutes();
+
+    let message = $("#chat-message").val();
+    let username = $("#chat-username").val();
+    $("#message-box").append(
+        `<p>` +
+            `<strong>` +
+            username +
+            `</strong>` +
+            " " +
+            message +
+            " " +
+            currentDate +
+            `</p>`
+    );
+    $("#chat-message").val("");
+    $("#chat-username").val("");
+
+    return false;
 });

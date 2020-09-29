@@ -16,7 +16,6 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <!-- Hamburger button-->
                 <a class="navbar-brand" href="#">Adventures in Sweden</a>
                 <div class="container d-flex flex-row-reverse">
                     <ul class="navbar-nav">
@@ -45,6 +44,37 @@
                 </div>
             </nav>
         </header>
+        <main>
+            <h5>Chat</h5>
+            <!-- Chat form-->
+            <section id="message-box">
+                <form action="" id="chat-form">
+                    <label for="chat-username">Username:</label>
+                    <div>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="chat-username"
+                        />
+                    </div>
+
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea
+                            class="form-control"
+                            id="chat-message"
+                            rows="3"
+                        ></textarea>
+                        <input
+                            type="submit"
+                            value="Send"
+                            id="send-button"
+                            class="btn btn-dark"
+                        />
+                    </div>
+                </form>
+            </section>
+        </main>
         <footer class="my-footer">
             <p>&copy; 2020, Adventures in Sweden, All rights reserved</p>
         </footer>

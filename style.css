@@ -99,7 +99,26 @@ p.error-msg {
     color: rgb(240, 25, 25);
     display: none;
 }
-/* Added CSS for the REgistry form */
-/* #register {
-    box-shadow: black;
+
+/* a.t-c:visited {
+    color: rgb(9, 9, 95);
 } */
+
+#chat-message {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+#chat-username {
+    margin-bottom: 10px;
+}
+
+.btn.btn-dark {
+    width: 100px;
+}
+
+#chat-form {
+    padding: 20px;
+    border: 2px solid black;
+    width: 100%;
+}
