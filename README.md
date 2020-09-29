@@ -32,3 +32,8 @@
     - Add picture grid and text
     - Add fancy box
     - If I have time - change content for article2,3 pages
+
+## Register form
+
+    - Password and Re-type password must match
+    - Add jquery
