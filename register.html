@@ -45,10 +45,103 @@
                 </div>
             </nav>
         </header>
+        <main>
+            <section>
+                <h5>Register</h5>
+                <form>
+                    <div class="my-fields">
+                        <div id="username">
+                            <input
+                                type="text"
+                                name="Username*"
+                                placeholder="Username*"
+                                class="form-control"
+                            />
+                            <p class="error-message">Enter your username</p>
+                        </div>
+                        <br />
+                        <div id="password">
+                            <input
+                                type="password"
+                                name="Password*"
+                                placeholder="Password*"
+                                class="form-control"
+                            />
+                            <p class="error-message">Enter your password</p>
+                        </div>
+                        <br />
+                        <div id="retype-password">
+                            <input
+                                type="password"
+                                name="Retype password*"
+                                placeholder="Retype-password*"
+                                class="form-control"
+                            />
+                            <p class="error-message">Retype your password</p>
+                        </div>
+                        <br />
+                        <div id="first-name">
+                            <input
+                                type="text"
+                                name="First name*"
+                                placeholder="First name*"
+                                class="form-control"
+                            />
+                            <p class="error-message">Enter your First name</p>
+                        </div>
+                        <br />
+                        <div id="last-name">
+                            <input
+                                type="text"
+                                name="Last name*"
+                                placeholder="Last name*"
+                                class="form-control"
+                            />
+                            <p class="error-message">Enter your Last name</p>
+                        </div>
+                        <br />
+                        <div id="select">
+                            <select
+                                id="exampleFormControlSelect1"
+                                class="form-control"
+                            >
+                                <option selected="selected" disabled>
+                                    Country*
+                                </option>
+                                <option>Latvia</option>
+                                <option>Lithuania</option>
+                                <option>Estonia</option>
+                                <option>Finland</option>
+                                <option>Sweden</option>
+                                <option>Sweden</option>
+                            </select>
+                            <p class="error-message">Choose a country</p>
+                        </div>
+
+                        <br />
+                        <div>
+                            <input type="checkbox" name="check-it" />
+                            <label for="agree-to"
+                                >Agree to Terms and Conditions</label
+                            >
+                            <p class="error-message">
+                                You must agree to the Terms and Conditions
+                            </p>
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="btn btn-dark"
+                            style="width: 110px"
+                        >
+                            Register
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </main>
         <footer class="my-footer">
-            <div class="container">
-                <p>&copy; 2020, Adventures in Sweden, All rights reserved</p>
-            </div>
+            <p>&copy; 2020, Adventures in Sweden, All rights reserved</p>
         </footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

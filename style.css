@@ -11,10 +11,6 @@ main.all-articles {
     margin-left: 20px;
     margin-right: 20px;
 }
-#carouselExampleIndicators {
-    border-width: 10px;
-    border-color: black;
-}
 
 #h6-home {
     margin-top: 15px;
@@ -56,6 +52,8 @@ a.articles-home:hover {
 
 img.card-img {
     padding: 10px;
+    /* display: flex;
+    align-self: center; */
     margin: 15px 10px 10px 10px;
 }
 
@@ -87,4 +85,19 @@ img.article-img-grid {
 
 #article1-text {
     padding: 0px;
+}
+
+.my-fields {
+    margin-top: 20px;
+}
+
+#select {
+}
+
+.form-control {
+    width: 20%;
+}
+
+p.error-message {
+    color: rgb(240, 25, 25);
 }
