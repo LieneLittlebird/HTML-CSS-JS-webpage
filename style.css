@@ -181,7 +181,7 @@ h4 {
 }
 
 #about-contacts {
-    padding: 5px;
+    padding: 0px;
     margin-top: 20px;
 }
 
@@ -189,5 +189,14 @@ h4 {
     font-size: small;
 }
 
-.about-h5 {
+.g-map {
+    width: 100%;
+}
+
+#about-h5 {
+    padding: 0;
+}
+
+#address-col {
+    padding-left: 20px;
 }
