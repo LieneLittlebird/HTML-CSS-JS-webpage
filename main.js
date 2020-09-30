@@ -50,29 +50,42 @@ $("#reg-form").submit(() => {
 
 $("#chat-form").submit(() => {
     const date = new Date();
+    let month = (date.getMonth() + 1).toString();
+    month = month.length === 1 ? "0" + month : month;
+    let minutes = date.getMinutes().toString();
+    minutes = minutes.length === 1 ? "0" + minutes : minutes;
+    let hours = date.getHours().toString();
+    hours = hours.length === 1 ? "0" + hours : hours;
+    let myDate = date.getDate().toString();
+    myDate = myDate.length === 1 ? "0" + myDate : myDate;
 
     let currentDate =
-        date.getDate() +
+        myDate +
         "." +
-        date.getMonth() +
+        month +
         "." +
         date.getFullYear() +
         " " +
-        date.getHours() +
+        hours +
         ":" +
-        date.getMinutes();
-
+        minutes;
     let message = $("#chat-message").val();
     let username = $("#chat-username").val();
-    $("#message-box").append(
-        `<p>` +
+    $("#chat-window").append(
+        `<p >` +
             `<strong>` +
             username +
             `</strong>` +
+            `<span class="chat-date">` +
             " " +
-            message +
             " " +
             currentDate +
+            `</span>` +
+            `</p>` +
+            " " +
+            `<p>` +
+            message +
+            " " +
             `</p>`
     );
     $("#chat-message").val("");
@@ -80,3 +93,5 @@ $("#chat-form").submit(() => {
 
     return false;
 });
+
+// .css({color: "grey", "font-size": "small" })
