@@ -93,5 +93,3 @@ $("#chat-form").submit(() => {
 
     return false;
 });
-
-// .css({color: "grey", "font-size": "small" })

@@ -46,7 +46,20 @@
         [x] Input1 - username(text)
         [x] Input2 - Message (textarea)
         [x] Submit button(send)
-        [] Upon submit - username+message value+(date+time) is displayed
-            [] Print current date and time (make it disabled and smaller)
-            [] Make username bold
-            []
+        [x] Upon submit - username+message value+(date+time) is displayed
+            [x] Print current date and time (make it disabled and smaller)
+            [x] Make username bold
+            [x]  Make date grey/disabled
+                [x] Make month start with 1
+                [x] Make Time have 2 minute numbers
+            [x] The scrollbar
+
+## About us
+
+    [] Add a heading
+    [] Create tabs box
+        [] Create clickable tabs with styling, text and a picture
+    [] Add a contacts heading
+    [] Add a Google API map
+    [] Add some actual contacts, like address, e-mail etc.
+    [] Change to About me or About
