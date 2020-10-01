@@ -1,8 +1,10 @@
-// $(".carousel").carousel("pause");
+if ($(".carousel").length) {
+    $(".carousel").carousel("pause");
 
-// $(".carousel").carousel({
-//     interval: 1000,
-// });
+    $(".carousel").carousel({
+        interval: 1000,
+    });
+}
 
 $("#reg-form").submit(() => {
     $(".error-msg").hide();
@@ -93,10 +95,3 @@ $("#chat-form").submit(() => {
 
     return false;
 });
-
-const initMap = () => {
-    const location = { lat: 56.94965, lng: 24.105186 };
-    const map = new google.maps.Map($("#g-map"), { zoom: 4, center: location });
-};
-
-AIzaSyBIuTSG7DjL5EM5ZTg_uQL0m201US2X_a0;
