@@ -16,7 +16,10 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav
+                class="navbar navbar-expand-lg navbar-dark bg-dark"
+                id="navbar-shadow"
+            >
                 <a class="navbar-brand" href="#">Adventures in Sweden</a>
                 <div class="container d-flex flex-row-reverse">
                     <ul class="navbar-nav">
@@ -69,11 +72,11 @@
         <main>
             <!-- Tabs-->
             <h4>About</h4>
-            <section class="about-tabs">
+            <section class="about-tabs" id="about-shadow">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a
-                            class="nav-link active"
+                            class="nav-link active shadow"
                             id="author-tab"
                             data-toggle="tab"
                             href="#author"
@@ -339,7 +342,7 @@
                 <div class="row no-gutters">
                     <div class="col-5" id="g-map">
                         <h5 class="about-h5">Contacts:</h5>
-                        <p>
+                        <p id="map-shadow">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.2494001972566!2d18.055642316467907!3d59.36217641543001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d0fa1e1f54f%3A0xfaf8cf4bae1c25fd!2sStockholm%20University!5e0!3m2!1sen!2slv!4v1601492502982!5m2!1sen!2slv"
                                 width="600"
@@ -365,7 +368,7 @@
                 </div>
             </section>
         </main>
-        <footer class="my-footer">
+        <footer class="my-footer" id="footer-shadow">
             <div>
                 <p>&copy; 2020, Adventures in Sweden, All rights reserved</p>
             </div>
