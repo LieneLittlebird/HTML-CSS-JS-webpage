@@ -95,3 +95,35 @@ $("#chat-form").submit(() => {
 
     return false;
 });
+
+let home = `
+              ''                 .++                                           
+             .ddo.              .ymmd:                                          
+              sdmmy:-.:::---...ommdhh/                                          
+              :dmmmmNNNNNmmmNmmmmmdhh.                                          
+              .ddmdmmmNmNdmNNmmNNmmmh                                           
+              .mmmddmm/--./mNmNNNNNNs                                           
+              oNmmhddm+' 'smdhydmmmNm.                                          
+             /mNNmhhyh+'''hdhyodmmNNNh-                                         
+            -mNNNNms+:.....oydmmmmmmmNy                                         
+            smddhy:'''-//-'''-oyhdmmmmh/+++/:-.'                                
+            /hddhy:'''.-.'''''-shdmmmmsymNNNmmdhyo/:-'                          
+            'osyy+:....''......-/hdddo+hmNNNNNmmmmmmddhs-'                      
+            :y/--'''....'.....'''-:::oydmmNNNNNNmmmNNNNNmh/'                    
+            smmhhss+/--.......'.....-ohhmNmNNNNNNNNNNNNNNNmh+.                  
+            hNNmNmNmmhy/.'''.''''''-ohhyhmMNMMNNNNNNNNNNNNNmmd+'                
+            hNmNNNMNMNNmo.'''''''.+ydmmdhdNMMMMMNNNNNNNNNNmmmmmd/'              
+           :dNmNNNMMMMMMNs:.''''-ohmNNNmmdMMMMMMMMMMNNNNNNmmmmNNmh:             
+          'hNNNNNNMMMMMMMmmo.'''-+hdmNNNmmNMMMMMMMMMMNNNNNNNmmmNNNms'           
+          .mNNNNNNMMMMMMMMMmo-'''.+hdNMNNNNMMMMMMMMMMNNNNNNNNNNNNNNNy.          
+          'mNNNNNMMMMMMMMMMNNd-...+hdNMNNNNMMMMMMMMMMMNNNNNNNNNNNNNNmy'         
+           sNNNMMMMMMMMMMMMMMN/..-sdNMMMMNNNMMMMMMMMMMNNNNNNMMMNNddyyo'         
+           'dmNMMMMMMMMMMMMMMN/-:smNMMMMMMNNMMMMMMMMMMMMMMMMmy++/-...-'         
+            :mNMMMMMMMMMMMMMMs::/hmMMMMMMMNMMMMMMMMMMNmhso+/-''''''' '          
+             yNMMMMMMMMMMMMMd/::/yMMMMMMNNNMMMMMMMN+:.'''''''''''''             
+             +NNMMMMMMNNmhhmo:-:/hMNmmsos+sdNNNMMNo''   ' '''''''''             
+              +dNNNNyo-''' ''.:-:sy.''   ' '-----..'.-'.---.'''''               
+                '.:/'    '    '''-/''' ''. '                                    
+                      '    '.       ''' '''           ' 
+`;
+console.log(home);
