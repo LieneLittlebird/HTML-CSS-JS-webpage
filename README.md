@@ -56,10 +56,13 @@
 
 ## About us
 
-    [] Add a heading
-    [] Create tabs box
+    [x] Add a heading
+    [x] Create tabs box
         [] Create clickable tabs with styling, text and a picture
-    [] Add a contacts heading
-    [] Add a Google API map
-    [] Add some actual contacts, like address, e-mail etc.
-    [] Change to About me or About
+    [x] Add a contacts heading
+    [x] Add a Google API map
+    [x] Add some actual contacts, like address, e-mail etc.
+    [x] Change to About me or About
+    [x] Add map and contacts
+
+[x] Add shadows to all
