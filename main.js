@@ -16,9 +16,11 @@ $("#reg-form").submit(() => {
 
     if ($("#password").val() === "") {
         $("#password-error").show();
-        if ($("#password").length <= 8) {
-            $("#password-length").show();
-        }
+        isValid = false;
+    }
+
+    if ($("#password").val().length < 8) {
+        $("#password-length").show();
         isValid = false;
     }
 
